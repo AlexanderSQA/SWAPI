@@ -1,0 +1,13 @@
+{
+  "name": "swapi",
+  "version": "1.0.0",
+  "description": "Project first",
+  "scripts": {
+    "api-test": "newman run /test1/SWAPI.postman_collection.json -n 3 -d /test1/data.csv"
+  },
+  "author": "Alexander Shatalov",
+  "dependencies": {
+    "newman": "^4.5.4"
+  }
+}	
+
