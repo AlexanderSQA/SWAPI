@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project first",
   "scripts": {
-    "api-test": "newman run SWAPI.postman_collection.json -n 3 -d data.csv"
+    "api-tests": "newman run SWAPI.postman_collection.json -n 3 -d data.csv"
   },
   "author": "Alexander Shatalov",
   "dependencies": {
